@@ -19,7 +19,12 @@ export default function Calculator() {
             return; 
         }
 
-        if (isNaN(n1) || isNaN(n2)){
+        if ((num1 == '' || num2 == '')){
+            setResult('Please put two numbers.');
+            return ;
+        }
+
+        if ((isNaN(n1) || isNaN(n2))){
             setResult('Invalid Input'); 
             return; 
         }
