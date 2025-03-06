@@ -139,7 +139,7 @@ main{
 
   #hobbies li{
     font-size:1.25em;
-    
+
     &:last-child {
       margin-bottom: 0;
     }

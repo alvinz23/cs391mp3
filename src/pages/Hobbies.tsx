@@ -9,6 +9,14 @@ const Title = styled.h3`
 font-size: 3em; 
 margin-left: 8em; 
   margin-bottom: 1em; 
+
+  @media screen and (max-width: 750px) {
+    font-size: 1.5em; 
+    margin-bottom: 0.5rem; 
+    margin-left :14rem;
+    margin-top : 2rem; 
+  }
+
 `;
 
 const HobbiesList = styled.ul`
