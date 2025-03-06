@@ -10,7 +10,7 @@ export default function Home() {
       <h3 id="main-title">Home Page</h3>
       <div id="main">
         <div id="main-image">
-          <StyledImage src="src/assets/linkedin.jpeg" alt="User photo" />
+          <StyledImage src="/linkedin.jpeg" alt="User photo" />
         </div>
         <div id="main-text">
           <p id="selfDescription">
