@@ -9,8 +9,8 @@ export default function Calculator() {
     const [num2, setNum2] = useState<string>(''); 
 
     function Calculate(op : string) : void{
-        const n1 = parseFloat(num1);
-        const n2 = parseFloat(num2); 
+        const n1 = Number(num1);
+        const n2 = Number(num2); 
 
         if (op == 'clear'){
             setResult(''); 
