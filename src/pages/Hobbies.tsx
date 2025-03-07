@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import TitleUpdate from '../components/TitleUpdate';
+
 
 const MainDiv = styled.div`
   margin-top: 0.75em;
@@ -6,7 +8,7 @@ const MainDiv = styled.div`
 `;
 
 const Title = styled.h3`
-font-size: 3em; 
+font-size: 2.8em; 
 margin-left: 8em; 
   margin-bottom: 1em; 
 
@@ -39,6 +41,7 @@ const HobbiesListItem = styled.li`
 export default function Hobbies() {
   return (
     <>
+    <TitleUpdate/>
       <Title>My Hobbies</Title>
       <MainDiv>
         <div id="main-text3">

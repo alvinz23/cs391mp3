@@ -1,12 +1,15 @@
 import styled from 'styled-components';
+import TitleUpdate from '../components/TitleUpdate';
 
 const StyledImage = styled.img`
-  max-width: 58%;
+  max-width: 55%;
 `;
 
 export default function Home() {
   return (
+    
     <>
+        <TitleUpdate/>
       <h3 id="main-title">Home Page</h3>
       <div id="main">
         <div id="main-image">

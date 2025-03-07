@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import Calculator from '../components/Calculator'; 
+
+import TitleUpdate from '../components/TitleUpdate';
+
 const StyledDiv = styled.div`
   margin-left: 3vw; 
   font-size: 1.4em;
@@ -16,6 +19,7 @@ const ProjectSection = styled.div`
 export default function Projects() {
   return (
     <>
+    <TitleUpdate/>
       <h3 id="main-title">Projects</h3>
       <StyledDiv>
         <ProjectSection>

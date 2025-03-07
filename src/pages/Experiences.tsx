@@ -1,8 +1,10 @@
 import styled from 'styled-components'; 
+import TitleUpdate from '../components/TitleUpdate';
+
 
 const StyledDiv = styled.div`
 margin-top : 3vh;
-font-size: calc(2px + 3.15vw);
+font-size: calc(2px + 3.10vw);
 `; 
  
 
@@ -10,6 +12,7 @@ font-size: calc(2px + 3.15vw);
 export default function Experiences(){
      return(
         <>
+        <TitleUpdate/>
         <h3 id = "main-title">Work Experience</h3>
         <StyledDiv id = "styledDiv">
         <h4>💻 Software Engineer Intern | Flow Global Software Technologies</h4>

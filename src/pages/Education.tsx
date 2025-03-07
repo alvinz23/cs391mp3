@@ -1,4 +1,6 @@
 import styled from 'styled-components'; 
+import TitleUpdate from '../components/TitleUpdate';
+
 
 const StyledDiv = styled.div`
 margin-top : 3vh;
@@ -9,6 +11,7 @@ font-size: calc(2px + 2.5vw);
 export default function Education (){ 
     return(
         <>
+        <TitleUpdate/>
         <h3 id="main-title">Education</h3>
       <StyledDiv>
         <h4>🎓 Boston University</h4>

@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import TitleUpdate from '../components/TitleUpdate';
+
 
 const ListContainer = styled.ul`
   margin-top: 2rem;
@@ -16,6 +18,7 @@ const ListItem = styled.li`
 export default function Courses() {
   return (
     <>
+    <TitleUpdate/>
       <h3 id="main-title">Relevant Courses Taken</h3>
       <div id="main">
         <div id="main-text5">
