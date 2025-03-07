@@ -13,16 +13,18 @@ margin-left: 8em;
   @media screen and (max-width: 750px) {
     font-size: 1.5em; 
     margin-bottom: 0.5rem; 
-    margin-left :14rem;
+    margin-left :11rem;
     margin-top : 2rem; 
   }
 
 `;
 
 const HobbiesList = styled.ul`
-  margin-top: 3em; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  list-style: none; /* Remove default bullet styling */
+  margin-top: 3em; 
+  padding: 0;
+
+
+
 `;
 
 const HobbiesListItem = styled.li`
@@ -31,6 +33,7 @@ const HobbiesListItem = styled.li`
   &:last-child {
     margin-bottom: 0em; 
   }
+
 `;
 
 export default function Hobbies() {
